@@ -104,7 +104,7 @@ public class Appointment {
 //						+ "<input name=\'btnRemove\' type=\'submit\' value=\'Remove\' class=\'btn btn-danger\'> "
 //						+ "<input name=\"hidItemIDDelete\" type=\"hidden\" value=\"" + itemID + "\">" + "</form></td></tr>"; 
 				output +="<td><input name='btnUpdate' type='button' value='Update' class='btnUpdate btn btn-secondary'></td>"       
-							+ "<td><input name='btnRemove' type='button' value='Remove' class='btnRemove btn btn-danger' data-docid='" + app_id + "'>" + "</td></tr>"; 
+							+ "<td><input name='btnRemove' type='button' value='Remove' class='btnRemove btn btn-danger' data-app_id='" + app_id + "'>" + "</td></tr>"; 
 			} 
 	 
 			con.close(); 
